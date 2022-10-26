@@ -1,8 +1,9 @@
 
         body{
-          
             font-family: Arial, Helvetica, sans-serif;
             background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 54, 71));
+            max-width: 833px;
+            min-width: 300px;
         }
         .box{
             color: white;
@@ -13,8 +14,7 @@
             background-color: rgba(0, 0, 0, 0.6);
             padding: 15px;
             border-radius: 15px;
-            max-width: 900px;
-            min-width: 300px;
+            
         }
         fieldset{
             border: 3px solid dodgerblue;
@@ -36,7 +36,6 @@
             outline: none;
             color: white;
             font-size: 15px;
-            width: 100%;
             letter-spacing: 2px;
         }
         .labelInput{
@@ -61,7 +60,7 @@
         }
         #submit{
             background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
-            width: 100%;
+            
             border: none;
             padding: 15px;
             color: white;
